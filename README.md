@@ -13,7 +13,7 @@ Este script lo que hace es buscar máquinas a través de la terminal. Puedes fil
 
 Necesitamos unos archivos para que este script funcione. Si es la primera vez que lo descargas, solo debes hacer:
  
-`/Buscador_Maquinas.sh -u.`
+`/Buscador_Maquinas.sh -u`
 
 Pero si no es la primera vez que lo descargas, hazlo igual por si tienes algo actual.
 
