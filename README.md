@@ -1,6 +1,6 @@
 # Proyecto de la academia de S4vitar #1
 
-Este script lo que hace es buscar máquinas a través de la terminal. Puedes filtrar la búsqueda por su sistema operativo, dificultad, habilidades, IP, nombre de la máquina...
+Este script lo que hace es buscar máquinas a través de la terminal. Puedes filtrar la búsqueda por su sistema operativo, dificultad, skills, IP, nombre de la máquina...
 
 ## Pasos
 
@@ -15,7 +15,7 @@ Necesitamos unos archivos para que este script funcione. Si es la primera vez qu
  
 `/Buscador_Maquinas.sh -u`
 
-Pero si no es la primera vez que lo descargas, hazlo igual por si tienes algo actual.
+Pero si no es la primera vez que lo descargas, hazlo igual por si tienes algo actualizar.
 
 <br>
 
