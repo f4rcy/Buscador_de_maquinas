@@ -17,6 +17,11 @@ Necesitamos unos archivos para que este script funcione. Si es la primera vez qu
 
 Pero si no es la primera vez que lo descargas, hazlo igual por si tienes algo actualizar.
 
+💡 Debes tener js-beautify, es una herramienta que necesita este script para que funcione sino lo tienes sigue estos pasos para instalarlo:
+
+- sudo pip3 install jsbeautifier
+- sudo apt install node-js-beautify
+
 <br>
 
 Listo, ahora puedes usar el script y buscar máquinas por la terminal  ;D
