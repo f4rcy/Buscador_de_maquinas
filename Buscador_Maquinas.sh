@@ -36,27 +36,27 @@ function help_panel(){
 }
 
 function update(){
-	tput civis
-	if [ ! -f bundle.js ]; then
-	echo -e "\n[x] Descargando archivos necesarios.."
-	curl -s $url > bundle.js
-        js-beautify bundle.js | sponge bundle.js
-	echo -e "\n[x] Archivos descargados :D"
-	else
-	curl -s $url > bundle_temp.js
-        js-beautify bundle_temp.js | sponge bundle_temp.js
-	md5=$(md5sum bundle.js | awk '{print $1}')
-	md5_temp=$(md5sum bundle_temp.js | awk '{print $1}')
-	
-	if [ "$md5_temp" == "$md5_temp" ]; then
-	echo -e "\n[x] No hay actualizaciones pendientes"
-	rm -r bundle_temp.js
-	else
-	echo -e "\n[x] Actualizando.."
-	rm bundle.js && mv bundle_temp.js bundle.js
-	fi
-	tput cnorm
-	fi
+        tput civis
+        if [ ! -f bundle.js ]; then
+        echo -e "\n[x] Descargando archivos necesarios.."
+        curl -s $url > budle.js
+        js-beautify budle.js | sponge bundle.js
+        echo -e "\n[x] Archivos descargados :D"
+        else
+        curl -s $url > budle_temp.js
+        js-beautify budle_temp.js | sponge bundle_temp.js
+        md5=$(md5sum bundle.js | awk '{print $1}')
+        md5_temp=$(md5sum bundle_temp.js | awk '{print $1}')
+
+        if [ "$md5_temp" == "$md5_temp" ]; then
+        echo -e "\n[x] No hay actualizaciones pendientes"
+        rm -r bundle_temp.js
+        else
+        echo -e "\n[x] Actualizando.."
+        rm bundle.js && mv bundle_temp.js bundle.js
+        fi
+        tput cnorm
+        fi
 }
 
 function searchmachine(){
