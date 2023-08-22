@@ -17,10 +17,14 @@ Necesitamos unos archivos para que este script funcione. Si es la primera vez qu
 
 Pero si no es la primera vez que lo descargas, hazlo igual por si tienes algo actualizar.
 
-💡 Debes tener js-beautify, es una herramienta que necesita este script para que funcione sino lo tienes sigue estos pasos para instalarlo:
+💡 Debes tener js-beautify y sponge, son herramientas que necesita este script para que funcione sino los tienes sigue estos pasos para instalarlo:
 
+**js-beautify**
 - sudo pip3 install jsbeautifier
 - sudo apt install node-js-beautify
+
+**sponge**
+- sudo apt install moreutils
 
 <br>
 
